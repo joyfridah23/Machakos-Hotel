@@ -281,9 +281,6 @@ const Contact = () => {
                     </div>
                 </div>
 
-
-
-
                 {/* Map Section */}
                 {/* <div className='mt-12 bg-white rounded-lg shadow-lg p-8'>
                     <h2 className='text-2xl font-bold text-gray-900 mb-6'>Find Us</h2>
