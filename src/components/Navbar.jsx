@@ -10,7 +10,7 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     }
     return (
-        <nav className="bg-red-800 flex items-center justify-between z-50 shadow-md shadow-gray-500  md:p-4 p-5  w-full  ">
+        <nav className="bg-red-800 fixed left-0 top-0 flex items-center justify-between z-50 shadow-md shadow-gray-500  md:p-4 p-5  w-full  ">
             <div>
                 <p className='text-2xl text-white font-semibold animate-bounce'>Machakos <span className=''>Hotels</span> </p>
             </div>

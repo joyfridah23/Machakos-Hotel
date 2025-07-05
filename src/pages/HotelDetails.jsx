@@ -15,8 +15,8 @@ const HotelDetails = () => {
     const hotels = [
         {
             id: 1,
-            name: 'Machakos Grand Hotel',
-            location: 'Machakos Town',
+            name: 'Kiikalloh Grand Resort',
+            location: 'Machakos-Makutano road',
             rating: 4.5,
             description: 'A luxurious hotel in the heart of Machakos with modern amenities and excellent service.',
             amenities: ['WiFi', 'Swimming Pool', 'Restaurant', 'Conference Room', 'Spa', 'Gym', 'Bar'],
@@ -31,8 +31,8 @@ const HotelDetails = () => {
         },
         {
             id: 2,
-            name: 'Machakos Resort & Spa',
-            location: 'Machakos Hills',
+            name: 'A&L',
+            location: 'Machakos-Makutano road',
             rating: 4.2,
             description: 'A peaceful resort with stunning views of the Machakos hills.',
             amenities: ['WiFi', 'Spa', 'Restaurant', 'Garden', 'Conference Room'],
@@ -40,6 +40,110 @@ const HotelDetails = () => {
             images: [
                 'https://images.unsplash.com/photo-1455587734955-081b22074882?w=800&h=600&fit=crop',
                 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&h=600&fit=crop'
+            ]
+        },
+        {
+            id: 3,
+            name: 'The Kyaka Hotel ',
+            location: 'Machakos Town Center',
+            rating: 4.0,
+            description: 'A charming lodge offering comfortable accommodation with traditional Kenyan hospitality.',
+            amenities: ['WiFi', 'Restaurant', 'Bar', 'Garden', 'Laundry Service'],
+            price: 4500,
+            images: [
+                'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&h=600&fit=crop',
+                'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&h=600&fit=crop'
+            ]
+        },
+        {
+            id: 4,
+            name: 'Semara Hotel',
+            location: 'Machakos Hills',
+            rating: 3.8,
+            description: 'Nestled in the scenic hills with breathtaking views and modern amenities.',
+            amenities: ['WiFi', 'Swimming Pool', 'Restaurant', 'Conference Room', 'Gym'],
+            price: 5200,
+            images: [
+                'https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&h=600&fit=crop',
+                'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop'
+            ]
+        },
+        {
+            id: 5,
+            name: 'Gelian Hotel',
+            location: 'Machakos CBD',
+            rating: 4.1,
+            description: 'Perfect for business travelers with modern facilities and central location.',
+            amenities: ['WiFi', 'Business Center', 'Restaurant', 'Conference Room', 'Parking'],
+            price: 4800,
+            images: [
+                'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800&h=600&fit=crop',
+                'https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&h=600&fit=crop'
+            ]
+        },
+        {
+            id: 6,
+            name: 'Machakos Garden Hotel',
+            location: 'Machakos Town',
+            rating: 3.9,
+            description: 'A peaceful hotel surrounded by beautiful gardens and local flora.',
+            amenities: ['WiFi', 'Restaurant', 'Garden', 'Bar', 'Room Service'],
+            price: 4200,
+            images: [
+                'https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&h=600&fit=crop',
+                'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&h=600&fit=crop'
+            ]
+        },
+        {
+            id: 7,
+            name: 'Machakos Lysak Hotel',
+            location: 'Machakos-Makutano road',
+            rating: 4.3,
+            description: 'Luxury accommodation with executive services and premium amenities.',
+            amenities: ['WiFi', 'Executive Lounge', 'Restaurant', 'Spa', 'Conference Room', 'Gym'],
+            price: 7200,
+            images: [
+                'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&h=600&fit=crop',
+                'https://images.unsplash.com/photo-1563911302283-d2bc129e7570?w=800&h=600&fit=crop'
+            ]
+        },
+        {
+            id: 8,
+            name: 'Sun Glam Hotel',
+            location: 'opposite Machakos university',
+            rating: 3.7,
+            description: 'Cozy inn located in the heart of Machakos valley with friendly service.',
+            amenities: ['WiFi', 'Restaurant', 'Bar', 'Garden', 'Parking'],
+            price: 3800,
+            images: [
+                'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop',
+                'https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=800&h=600&fit=crop'
+            ]
+        },
+        {
+            id: 9,
+            name: 'Fanela gardens and resort',
+            location: 'Machakos-makutano road',
+            rating: 4.4,
+            description: 'A heritage hotel that combines traditional architecture with modern comfort.',
+            amenities: ['WiFi', 'Heritage Tours', 'Restaurant', 'Cultural Center', 'Conference Room'],
+            price: 5800,
+            images: [
+                'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=600&fit=crop',
+                'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&h=600&fit=crop'
+            ]
+        },
+        {
+            id: 10,
+            name: 'Visum Park',
+            location: 'Machakos-makutano road',
+            rating: 3.6,
+            description: 'Budget-friendly hotel with essential amenities and comfortable rooms.',
+            amenities: ['WiFi', 'Restaurant', 'Parking', 'Laundry Service'],
+            price: 3200,
+            images: [
+                'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&h=600&fit=crop',
+                'https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&h=600&fit=crop'
             ]
         }
     ]
