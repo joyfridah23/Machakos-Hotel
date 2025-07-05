@@ -31,7 +31,7 @@ const Contact = () => {
                     'Accept': 'application/json'
                 },
                 body: JSON.stringify({
-                    access_key: 'YOUR_ACCESS_KEY_HERE', // Replace with your actual Web3Forms access key
+                    access_key: 'a510e9a3-9ed7-47d5-b3c0-dda6d4c32a4d', // Replace with your actual Web3Forms access key
                     name: formData.name,
                     email: formData.email,
                     phone: formData.phone,
@@ -271,8 +271,8 @@ const Contact = () => {
                                 type='submit'
                                 disabled={isSubmitting}
                                 className={`w-full py-3 px-6 rounded-lg font-semibold text-white transition duration-300 ${isSubmitting
-                                        ? 'bg-gray-400 cursor-not-allowed'
-                                        : 'bg-red-800 hover:bg-red-700'
+                                    ? 'bg-gray-400 cursor-not-allowed'
+                                    : 'bg-red-800 hover:bg-red-700'
                                     }`}
                             >
                                 {isSubmitting ? 'Sending...' : 'Send Message'}
@@ -282,7 +282,7 @@ const Contact = () => {
                 </div>
 
                 {/* Map Section */}
-                <div className='mt-12 bg-white rounded-lg shadow-lg p-8'>
+                {/* <div className='mt-12 bg-white rounded-lg shadow-lg p-8'>
                     <h2 className='text-2xl font-bold text-gray-900 mb-6'>Find Us</h2>
                     <div className='aspect-w-16 aspect-h-9 bg-gray-200 rounded-lg'>
                         <iframe
@@ -296,7 +296,7 @@ const Contact = () => {
                             className='rounded-lg'
                         ></iframe>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
